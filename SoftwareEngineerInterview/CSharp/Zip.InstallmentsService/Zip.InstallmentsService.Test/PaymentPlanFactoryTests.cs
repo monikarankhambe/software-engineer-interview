@@ -15,6 +15,7 @@ namespace Zip.InstallmentsService.Test
             var paymentPlan = paymentPlanFactory.CreatePaymentPlan(123.45M);
 
             // Assert
+            //this is test for push
             paymentPlan.ShouldNotBeNull();
         }
     }
